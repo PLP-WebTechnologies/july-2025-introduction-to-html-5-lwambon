@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn the fundamentals of HTML5 structure, accessibility, and SEO through a simple, semantic web page." />
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic tags, web development" />
+  <meta name="author" content="Lucy" />
+  <title>HTML5 Semantic Web Page</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Semantic HTML5 Page</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page demonstrates the use of semantic HTML5 elements, accessibility best practices, and beginner-friendly SEO techniques. It is designed to be readable by both humans and search engines.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <nav>
+        <h3>Semantic Structure</h3>
+        <p>Uses HTML5 elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> to define meaningful page regions.</p>
+      </nav>
+      <article>
+        <h3>Accessibility</h3>
+        <p>Includes ARIA labels and logical heading order to support screen readers and assistive technologies.</p>
+      </nav>
+      <nav>
+        <h3>SEO Optimization</h3>
+        <p>Features descriptive metadata, keyword-rich headings, and readable content to improve search engine visibility.</p>
+      </nav>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>For more information, feel free to reach out via email or connect on LinkedIn.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lucy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
